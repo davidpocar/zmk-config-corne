@@ -19,9 +19,9 @@
 
 ZMK_HOLD_TAP(hml,
     flavor = "balanced";
-    tapping-term-ms = <240>;
+    tapping-term-ms = <280>;
     quick-tap-ms = <175>;
-    require-prior-idle-ms = <100>;
+    require-prior-idle-ms = <150>;
     hold-trigger-key-positions = <KEYS_R THUMBS>;
     hold-trigger-on-release;
     bindings = <&kp>, <&kp>;
@@ -29,9 +29,9 @@ ZMK_HOLD_TAP(hml,
 
 ZMK_HOLD_TAP(hmr,
     flavor = "balanced";
-    tapping-term-ms = <240>;
+    tapping-term-ms = <280>;
     quick-tap-ms = <175>;
-    require-prior-idle-ms = <100>;
+    require-prior-idle-ms = <150>;
     hold-trigger-key-positions = <KEYS_L THUMBS>;
     hold-trigger-on-release;
     bindings = <&kp>, <&kp>;
