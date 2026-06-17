@@ -65,7 +65,7 @@ ZMK_LAYER(defaul_layer,
 	&kp GRAVE           &kp Q        &kp W        &kp F         &kp P          &kp B    &kp J     &kp L                &kp U         &kp Y        &kp SEMI     &kp MINUS
 	&macro_doubleshift  &hml LGUI A  &hml LALT R  &hml LCTRL S  &hml LSHIFT T  &kp G    &kp M     &hmr RSHIFT N  &hmr RCTRL E  &hmr RALT I  &hmr RGUI O  &kp SQT
 	&kp LC(LSHIFT)      &kp Z        &kp X        &kp C         &kp D          &kp V    &kp K     &kp H                &kp COMMA     &kp DOT      &kp FSLH     &kp EQUAL
-				                     &mo NIRI        &lt LOW SPACE  &sks LSHIFT                 &kp BSPC  &lt RAI RET      &mo MISC
+				                     &lt NIRI TAB    &lt LOW SPACE  &sks LSHIFT                 &kp BSPC  &lt RAI RET      &lt MISC TAB
 )
 
 ZMK_LAYER(lower_layer,
@@ -79,7 +79,7 @@ ZMK_LAYER(raise_layer,
 	&trans    &kp N1    &kp N2     &kp N3    &kp N4    &kp N5          &kp N6    &kp N7     &kp N8     &kp N9    &kp N0     &trans
 	&kp EXCL  &kp BSLH  &kp PIPE   &kp AMPS  &kp DLLR  &kp PRCNT       &kp DEL   &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
 	&kp CARET &kp FSLH  &kp TILDE  &kp HASH  &kp AT    &kp ASTRK       &kp EXCL  &kp EQUAL  &kp MINUS  &kp PLUS  &kp PIPE   &trans
-	          &trans    &trans     &kp TAB                             &trans    &trans     &trans
+	          &trans    &trans     &trans                              &trans    &trans     &trans
 )
 
 ZMK_LAYER(other_layer,
