@@ -37,6 +37,13 @@ ZMK_HOLD_TAP(hmr,
     bindings = <&kp>, <&kp>;
 )
 
+ZMK_BEHAVIOR(sks, sticky_key,
+    release-after-ms = <1000>;
+    quick-release;
+    ignore-modifiers;
+    bindings = <&kp>;
+)
+
 ZMK_MACRO(macro_doubleshift,
     bindings = <&kp LSHIFT &kp LSHIFT>;
 )
@@ -58,7 +65,7 @@ ZMK_LAYER(defaul_layer,
 	&kp GRAVE           &kp Q        &kp W        &kp F         &kp P          &kp B    &kp J     &kp L                &kp U         &kp Y        &kp SEMI     &kp MINUS
 	&macro_doubleshift  &hml LGUI A  &hml LALT R  &hml LCTRL S  &hml LSHIFT T  &kp G    &kp M     &hmr RSHIFT N  &hmr RCTRL E  &hmr RALT I  &hmr RGUI O  &kp SQT
 	&kp LC(LSHIFT)      &kp Z        &kp X        &kp C         &kp D          &kp V    &kp K     &kp H                &kp COMMA     &kp DOT      &kp FSLH     &kp EQUAL
-				                     &mo NIRI        &lt LOW SPACE  &sk LSHIFT                  &kp BSPC  &lt RAI RET      &mo MISC
+				                     &mo NIRI        &lt LOW SPACE  &sks LSHIFT                 &kp BSPC  &lt RAI RET      &mo MISC
 )
 
 ZMK_LAYER(lower_layer,
